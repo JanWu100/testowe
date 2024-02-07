@@ -107,8 +107,8 @@ section {
   
     display: inline-block;
 
-    -webkit-mask-image: url("/images/Union.svg");
-    mask-image: url("/images/Union.svg");
+    -webkit-mask-image: url("../images/Union.svg");
+    mask-image: url("../images/Union.svg");
 
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
