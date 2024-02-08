@@ -181,8 +181,6 @@ top: 50%; */
   height: 610px;
   /* margin-top: 110px; */
   z-index: 50;
-  /* animation: image-resize linear forwards;
-  animation-timeline: view(810px 50%); */
   background-color: red;
   transition: width 1s ;
 }
@@ -256,27 +254,9 @@ top: 50%; */
   font-weight: 1000;
 }
 
-@keyframes image-resize {
-  from {width: 670px;}
-  to { width: 100%;}
-}
 
-@keyframes fade-out {
-  from {opacity: 1;}
-  to { opacity: 0;}
-}
 
-/* .happy {
-  position: absolute;
-  left: 0;
-  bottom: 0;
- z-index: 2;
-} */
 
-/* svg rect {
-  fill: #fffae4;
-  mask: url(#mask)
-} */
 
 .s2-content {
   display: flex;
@@ -302,9 +282,7 @@ top: 50%; */
   font-size: 3.2rem;
   color: #3B3431;
   line-height: 1.4;
-  /* animation: fade-out linear forwards;
-  animation-timeline: view();
-  animation-range: exit(); */
+
 }
 
 .list {
