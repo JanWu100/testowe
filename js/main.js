@@ -118,9 +118,9 @@ function setScrollVar() {
         img.classList.add("sticky", "bigpic")
         img.classList.remove("positioned")
         // console.log("TO")
-        console.log(markRect.bottom + " markRect.bottom")
-        console.log(document.documentElement.clientHeight + " document.documentElement.clientHeight")
-        console.log(document.documentElement.clientHeight + 50 + " +50")
+        // console.log(markRect.bottom + " markRect.bottom")
+        // console.log(document.documentElement.clientHeight + " document.documentElement.clientHeight")
+        // console.log(document.documentElement.clientHeight + 50 + " +50")
 
     } 
 
